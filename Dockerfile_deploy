@@ -1,0 +1,6 @@
+FROM brick-game-build
+
+WORKDIR /app/Brick-Game-9999-in-1
+
+EXPOSE 8088
+CMD ["java", "-jar", "target/brick-game-0.3.0-SNAPSHOT.jar"]
