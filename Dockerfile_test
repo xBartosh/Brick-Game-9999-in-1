@@ -1,0 +1,5 @@
+FROM brick-game-build
+
+WORKDIR /app/Brick-Game-9999-in-1
+
+CMD ["mvn", "test"]
